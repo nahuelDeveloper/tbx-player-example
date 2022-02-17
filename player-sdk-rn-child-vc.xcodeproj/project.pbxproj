@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,11 @@
 		10DA339627B15F7A0075B822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DA339427B15F7A0075B822 /* Main.storyboard */; };
 		10DA339827B15F7D0075B822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DA339727B15F7D0075B822 /* Assets.xcassets */; };
 		10DA339B27B15F7D0075B822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DA339927B15F7D0075B822 /* LaunchScreen.storyboard */; };
+		2CA528FFC405E7C43751E960 /* Pods_player_sdk_rn_child_vc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D77C9CD1DCED22A1F3D357B /* Pods_player_sdk_rn_child_vc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0745F9D8E325777FFA8E1F86 /* Pods-player-sdk-rn-child-vc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-player-sdk-rn-child-vc.release.xcconfig"; path = "Target Support Files/Pods-player-sdk-rn-child-vc/Pods-player-sdk-rn-child-vc.release.xcconfig"; sourceTree = "<group>"; };
 		10DA338B27B15F7A0075B822 /* player-sdk-rn-child-vc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "player-sdk-rn-child-vc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DA338E27B15F7A0075B822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10DA339027B15F7A0075B822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		10DA339727B15F7D0075B822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DA339A27B15F7D0075B822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10DA339C27B15F7D0075B822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D77C9CD1DCED22A1F3D357B /* Pods_player_sdk_rn_child_vc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_player_sdk_rn_child_vc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844261938F0752F53EF59FEA /* Pods-player-sdk-rn-child-vc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-player-sdk-rn-child-vc.debug.xcconfig"; path = "Target Support Files/Pods-player-sdk-rn-child-vc/Pods-player-sdk-rn-child-vc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA528FFC405E7C43751E960 /* Pods_player_sdk_rn_child_vc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				10DA338D27B15F7A0075B822 /* player-sdk-rn-child-vc */,
 				10DA338C27B15F7A0075B822 /* Products */,
+				1E13DCC83C5584840045DFF7 /* Pods */,
+				74368B8A6329624A4551D22D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = "player-sdk-rn-child-vc";
 			sourceTree = "<group>";
 		};
+		1E13DCC83C5584840045DFF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844261938F0752F53EF59FEA /* Pods-player-sdk-rn-child-vc.debug.xcconfig */,
+				0745F9D8E325777FFA8E1F86 /* Pods-player-sdk-rn-child-vc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74368B8A6329624A4551D22D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D77C9CD1DCED22A1F3D357B /* Pods_player_sdk_rn_child_vc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10DA339F27B15F7D0075B822 /* Build configuration list for PBXNativeTarget "player-sdk-rn-child-vc" */;
 			buildPhases = (
+				D1826F9614A5BC58C46462E7 /* [CP] Check Pods Manifest.lock */,
 				10DA338727B15F7A0075B822 /* Sources */,
 				10DA338827B15F7A0075B822 /* Frameworks */,
 				10DA338927B15F7A0075B822 /* Resources */,
+				1CC08DA6D49F2743B24CF97B /* [CP] Embed Pods Frameworks */,
+				99903C6075830DC458AA6155 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CC08DA6D49F2743B24CF97B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-player-sdk-rn-child-vc/Pods-player-sdk-rn-child-vc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-player-sdk-rn-child-vc/Pods-player-sdk-rn-child-vc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-player-sdk-rn-child-vc/Pods-player-sdk-rn-child-vc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99903C6075830DC458AA6155 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-player-sdk-rn-child-vc/Pods-player-sdk-rn-child-vc-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-player-sdk-rn-child-vc/Pods-player-sdk-rn-child-vc-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-player-sdk-rn-child-vc/Pods-player-sdk-rn-child-vc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1826F9614A5BC58C46462E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-player-sdk-rn-child-vc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10DA338727B15F7A0075B822 /* Sources */ = {
@@ -283,12 +369,15 @@
 		};
 		10DA33A027B15F7D0075B822 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844261938F0752F53EF59FEA /* Pods-player-sdk-rn-child-vc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BZWUJTHWW;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "player-sdk-rn-child-vc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +391,15 @@
 		};
 		10DA33A127B15F7D0075B822 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0745F9D8E325777FFA8E1F86 /* Pods-player-sdk-rn-child-vc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BZWUJTHWW;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "player-sdk-rn-child-vc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

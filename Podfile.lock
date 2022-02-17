@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (5.5.0)
+  - google-cast-sdk (4.6.1):
+    - google-cast-sdk/Core (= 4.6.1)
+    - Protobuf (~> 3.13)
+  - google-cast-sdk/Core (4.6.1):
+    - Protobuf (~> 3.13)
+  - GoogleAds-IMA-iOS-SDK (3.14.4)
+  - GoSwiftyM3U8 (1.0.0)
+  - Kingfisher (6.3.1)
+  - Protobuf (3.19.1)
+  - PureLayout (3.1.9)
+  - SwiftyJSON (5.0.0)
+  - TBXPlayerSDK (0.3.2):
+    - TBXPlayerSDK/Core (= 0.3.2)
+  - TBXPlayerSDK/Core (0.3.2):
+    - Alamofire
+    - google-cast-sdk (= 4.6.1)
+    - GoogleAds-IMA-iOS-SDK (= 3.14.4)
+    - GoSwiftyM3U8 (~> 1.0.0)
+    - Kingfisher (= 6.3.1)
+    - PureLayout
+    - SwiftyJSON (= 5.0.0)
+
+DEPENDENCIES:
+  - TBXPlayerSDK (from `/Users/mobileteam/Documents/Toolbox/tbx-player-ios-sdk`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - google-cast-sdk
+    - GoogleAds-IMA-iOS-SDK
+    - GoSwiftyM3U8
+    - Kingfisher
+    - Protobuf
+    - PureLayout
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  TBXPlayerSDK:
+    :path: "/Users/mobileteam/Documents/Toolbox/tbx-player-ios-sdk"
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  google-cast-sdk: 9fc76175641bc24ef2515e0263344bd2c5c4e75c
+  GoogleAds-IMA-iOS-SDK: c190284044e9a28b3e7422ba9886db015c71a84f
+  GoSwiftyM3U8: 24c6ca77a150fc7f0cf17895ff11c9e8ff1e4d87
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Protobuf: 3724efa50cb2846d7ccebc8691c574e85fd74471
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TBXPlayerSDK: 3f365244485f9400569343b5a573e70cc0b59b39
+
+PODFILE CHECKSUM: 0c7a64f4a4b50f2523a8a247c012cd4a0bd82f24
+
+COCOAPODS: 1.11.2
